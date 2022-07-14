@@ -1,0 +1,177 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.font-roboto {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 9997;
+	transition: all;
+	padding: 15px;
+	overflow-y: auto;
+}
+
+#home {
+	min-height: 100vh;
+	/*background-image: url(./Images/Squall_wp1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;*/
+}
+
+#home-h:hover {
+	color: orange;
+}
+
+#home-h {
+	color: white;
+}
+
+#about {
+	min-height: 100vh;
+	background-color: rgba(0,0,0,0.9);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#about-h:hover {
+	color: orange;
+}
+
+#projects {
+	min-height: 100vh;
+	background-image: url(./Images/s1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	background-attachment: fixed;
+}
+
+#projects-h:hover {
+	color: orange;
+}
+
+#contacts {
+	min-height: 100vh;
+	background-image: url(./Images/Squall_wp1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	background-attachment: fixed;
+}
+
+#contacts-h:hover {
+	color: orange;
+}
+
+.background {
+	height: 100vh;
+	background-image: url(./Images/Squall_wp1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+.bg-trans {
+	background-color: rgba(0,0,0,0.8);
+	background-size: auto;
+	background-position: center;
+}
+
+.pix {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+
+.fa-facebook {
+	font-size: 30px;
+	color: skyblue;
+}
+
+.fa-facebook:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.fa-instagram {
+	font-size: 30px;
+	color: skyblue;
+}
+
+.fa-instagram:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.fa-linkedin {
+	font-size: 30px;
+	color: skyblue;
+}
+
+.fa-linkedin:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+/*Footer icons*/
+.fa-facebook-f {
+	font-size: 20px;
+	color: skyblue;
+}
+
+.fa-facebook-f:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.fa-instagram-f {
+	font-size: 20px;
+	color: skyblue;
+}
+
+.fa-instagram-f:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.fa-linkedin-f {
+	font-size: 20px;
+	color: skyblue;
+}
+
+.fa-linkedin-f:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.send {
+    top:50%;
+    border:none; 
+    border-radius:10px;
+    width: 50px;
+    background-color: skyblue;
+}
+
+.send:hover {
+	cursor: pointer;
+	background-color: orange;
+}
